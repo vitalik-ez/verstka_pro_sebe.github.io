@@ -58,7 +58,7 @@ header{
 	justify-content: center;
 	position: absolute;
 	width: 100%;
-	height: 700px;
+	height: auto;
 	left: 0px;
 	top: 630px;
 	background: #131313;
