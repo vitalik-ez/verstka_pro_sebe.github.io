@@ -143,8 +143,7 @@ header{
 }
 .bike_foto{
 	display: flex;
-	height: 410px;
-	border: 1px solid black;
+	margin-bottom: 20px;
 }
 .bike_foto > div > p{
 	font-family: 'Open Sans', sans-serif;
