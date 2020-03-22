@@ -119,7 +119,7 @@ header{
 .hobbies{
 	display: flex;
 	justify-content: center;
-	margin-top: 800px;
+	margin-top: 830px;
 }
 .hobbies > div{
 	height: 150px;
