@@ -168,6 +168,10 @@ header{
 .intend_2{
 	width: 10%;
 }
+body{
+	margin: 0;
+	padding: 0;
+}
 .rectangle_foto{
 	display: flex;
 	align-items: center;
