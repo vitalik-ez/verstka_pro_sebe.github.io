@@ -83,7 +83,8 @@ header{
 }
 .right_block > img{
 	width: 100%;
-	height: 600px;
+	height: 100%;
+	border: 1px solid white;
 }
 .who > h1{
 	font-family: Bebas Neue;
