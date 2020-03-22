@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Open+Sans&display=swap');
-
 header{
 	display: flex; 
 	justify-content: space-around;
@@ -53,7 +52,6 @@ header{
 	margin-left: 25%;
 	width: 250px;
 	height: 140px;
-	
 }
 .rectangle{
 	display: flex;
