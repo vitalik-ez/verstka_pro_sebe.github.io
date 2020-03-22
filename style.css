@@ -145,7 +145,7 @@ header{
 	display: flex;
 }
 .bike_foto > div > p{
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -195,7 +195,7 @@ header{
 footer{
 	display: flex;
 	justify-content: center;
-	font-family: Open Sans;
+	font-family: 'Open Sans', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
