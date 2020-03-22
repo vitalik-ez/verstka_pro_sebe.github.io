@@ -143,7 +143,7 @@ header{
 }
 .bike_foto{
 	display: flex;
-	height: 400px;
+	height: 410px;
 	border: 1px solid black;
 }
 .bike_foto > div > p{
