@@ -286,7 +286,7 @@ footer{
 	}
 	.rectangle{
 		top: 350px;
-		height: 650px;
+		height: 500px;
 		font-size: 10px;
 		line-height: 15px;
 	}
@@ -296,7 +296,7 @@ footer{
 		column-count: 2;
 	}
 	.indent_1{
-		margin-top: 110px;
+		margin-top: 75px;
 	}
 	.hobbies{
 		margin-top: 900px;
