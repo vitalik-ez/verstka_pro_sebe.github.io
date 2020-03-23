@@ -271,18 +271,18 @@ footer{
 	.mobile_header{
 		display: inline-flex;
 		width: 100%;
-		height: 50px;
-		background-color: gray;
-		margin-top: 0;
+		margin-top: 10px;
 	}
 	#left{
 		margin-left: 10%;
 		margin-right: 70%;
 	}
+	.name{
+		margin-top: -20px;
+	}
 	.menu_search{
 		width: 18px;
 		height: 23px;
-		margin-top: 10px;
 	}
 	.surname_name > li{
 		height: 50px;
@@ -314,7 +314,7 @@ footer{
 		margin-top: 75px;
 	}
 	.hobbies{
-		margin-top: 570px;
+		margin-top: 600px;
 	}
 	.hobbies > div > h1{
 		width: 70px;
