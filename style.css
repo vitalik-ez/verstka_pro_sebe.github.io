@@ -287,8 +287,8 @@ footer{
 	.rectangle{
 		top: 350px;
 		height: 650px;
-		font-size: 15px;
-		line-height: 20px;
+		font-size: 10px;
+		line-height: 15px;
 	}
 	.wrap_t{
 		-moz-column-count: 2; /* Firefox */
