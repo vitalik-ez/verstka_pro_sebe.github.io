@@ -192,11 +192,6 @@ body{
 	padding: 30px;
     background: white;
 }
-@media(max-width: 1000px){
-	.rectangle_foto{
-		flex-direction: column;
-	}
-}
 footer{
 	display: flex;
 	justify-content: center;
@@ -206,4 +201,143 @@ footer{
 	font-size: 20px;
 	line-height: 23px;
 	color: rgba(0, 0, 0, 0.61);
+}
+@media(max-width: 1200px){
+	.rectangle_foto{
+		flex-wrap: wrap;
+	}
+}
+@media(max-width: 992px){
+	.rectangle_foto{
+		flex-wrap: wrap;
+	}
+	.right_block{
+		display: none;
+	}
+	.left_block{
+		width: 80%;
+	}
+	.indent{
+		width: 5%;
+	}
+	.sign{
+		margin-top: -20px;
+	}
+}
+@media(max-width: 768px){
+	.surname_name > li{
+		height: 75px;
+		font-size: 90px;
+		line-height: 144px;
+	}
+	.speciality > li{
+		height: 40px;
+		font-size: 50px;
+		line-height: 50px;
+	}
+	.sign{
+		width: 200px;
+		height: 100px;
+		margin-top: -10px;
+	}
+	.rectangle{
+		top: 500px;
+		height: 720px;
+	}
+	.indent_1{
+		margin-top: 120px;
+	}
+	.hobbies{
+		margin-top: 800px;
+	}
+	.bike_foto{
+		flex-direction: column;
+	}
+	.bike_foto > div > p{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.hobbies_foto{
+		margin-top: 25px;
+	}
+	header > div{
+		margin-top: 10px;
+	}
+	/*header*/
+}
+@media(max-width: 576px){
+	.header-center li {
+		display: none;
+	}
+	.surname_name > li{
+		height: 50px;
+		font-size: 60px;
+		line-height: 144px;
+	}
+	.speciality > li{
+		height: 25px;
+		font-size: 30px;
+		line-height: 50px;
+	}
+	.sign{
+		width: 100px;
+		height: 50px;
+		margin-top: 10px;
+	}
+	.rectangle{
+		top: 350px;
+		height: 600px;
+		font-size: 10px;
+		line-height: 15px;
+	}
+	.wrap_t{
+		-moz-column-count: 2; /* Firefox */
+		-webkit-column-count: 2; /* Safari and Chrome */
+		column-count: 2;
+	}
+	.left_block > div{
+		display: flex;
+		flex-direction: column;
+	}
+	.left_block > div > ul{
+		margin-top: 0;
+	}
+	.hobbies{
+		margin-top: 900px;
+	}
+	.hobbies > div > h1{
+		width: 130px;
+		height: 100px;
+		font-size: 30px;
+		line-height: 65px;
+
+	}
+	.hobbies > div > img{
+		width: 130px;
+		height: 100px;
+	}
+
+
+
+	/*
+	.indent_1{
+		margin-top: 120px;
+	}
+	.hobbies{
+		margin-top: 800px;
+	}
+	.intend_2{
+		width: 20%;
+	}
+	.bike_foto{
+		flex-direction: column;
+	}
+	.bike_foto > div > p{
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	.hobbies_foto{
+		margin-top: 25px;
+	}
+	*/
 }
