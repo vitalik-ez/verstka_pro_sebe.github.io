@@ -329,7 +329,10 @@ footer{
 		padding: 15px;
 	    background: white;
 	}
-
+	footer{
+		font-size: 12px;
+		line-height: 16px;
+	}
 	
 
 
