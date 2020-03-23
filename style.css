@@ -287,8 +287,8 @@ footer{
 	.rectangle{
 		top: 350px;
 		height: 600px;
-		font-size: 10px;
-		line-height: 15px;
+		font-size: 15px;
+		line-height: 20px;
 	}
 	.wrap_t{
 		-moz-column-count: 2; /* Firefox */
@@ -298,6 +298,13 @@ footer{
 	.left_block > div{
 		display: flex;
 		flex-direction: column;
+	}
+	.left_block > div > p{
+		margin-top: -10px;
+	}
+
+	.left_block{
+		margin-top: 0;
 	}
 	.left_block > div > ul{
 		margin-top: 0;
@@ -316,6 +323,7 @@ footer{
 		width: 130px;
 		height: 100px;
 	}
+
 
 
 
