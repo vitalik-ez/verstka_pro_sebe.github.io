@@ -271,6 +271,9 @@ footer{
 	.mobile_header{
 		display: inline-flex;
 		width: 100%;
+		height: 50px;
+		background-color: gray;
+		margin-top: 0;
 	}
 	#left{
 		margin-left: 10%;
@@ -279,6 +282,7 @@ footer{
 	.menu_search{
 		width: 18px;
 		height: 23px;
+		margin-top: 10px;
 	}
 	.surname_name > li{
 		height: 50px;
