@@ -286,7 +286,7 @@ footer{
 	}
 	.rectangle{
 		top: 350px;
-		height: 600px;
+		height: 650px;
 		font-size: 15px;
 		line-height: 20px;
 	}
@@ -295,19 +295,8 @@ footer{
 		-webkit-column-count: 2; /* Safari and Chrome */
 		column-count: 2;
 	}
-	.left_block > div{
-		display: flex;
-		flex-direction: column;
-	}
-	.left_block > div > p{
-		margin-top: -10px;
-	}
-
-	.left_block{
-		margin-top: 0;
-	}
-	.left_block > div > ul{
-		margin-top: 0;
+	.indent_1{
+		margin-top: 110px;
 	}
 	.hobbies{
 		margin-top: 900px;
@@ -323,6 +312,7 @@ footer{
 		width: 130px;
 		height: 100px;
 	}
+	
 
 
 
