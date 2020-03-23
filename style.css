@@ -299,43 +299,38 @@ footer{
 		margin-top: 75px;
 	}
 	.hobbies{
-		margin-top: 900px;
+		margin-top: 570px;
 	}
 	.hobbies > div > h1{
-		width: 130px;
-		height: 100px;
-		font-size: 30px;
-		line-height: 65px;
-
+		width: 70px;
+		height: 70px;
+		font-size: 25px;
+		line-height: 20px;
+	}
+	.hobbies{
+		height: 65px;
 	}
 	.hobbies > div > img{
-		width: 130px;
-		height: 100px;
+		width: 90px;
+		height: 90px;
 	}
+	.hobbies_foto{
+		width: 30px;
+		height: 26px;
+	}
+	.bike_foto > div > p{
+		font-size: 10px;
+		line-height: 17px;
+	}
+	.rectangle_foto > div > img{
+		margin: 30px; 
+		width: 150px;
+		height: 250px;
+		padding: 15px;
+	    background: white;
+	}
+
 	
 
 
-
-
-	/*
-	.indent_1{
-		margin-top: 120px;
-	}
-	.hobbies{
-		margin-top: 800px;
-	}
-	.intend_2{
-		width: 20%;
-	}
-	.bike_foto{
-		flex-direction: column;
-	}
-	.bike_foto > div > p{
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-	.hobbies_foto{
-		margin-top: 25px;
-	}
-	*/
 }
