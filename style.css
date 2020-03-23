@@ -19,7 +19,6 @@ a {
 	text-decoration: none;
 	color: black; 
 }
-
 .menu_search{
 	width: 25px;
 	height: 27px;
@@ -266,8 +265,20 @@ footer{
 	/*header*/
 }
 @media(max-width: 576px){
-	.header-center li {
+	.header-center, .social_img{
 		display: none;
+	}
+	.mobile_header{
+		display: inline-flex;
+		width: 100%;
+	}
+	#left{
+		margin-left: 10%;
+		margin-right: 70%;
+	}
+	.menu_search{
+		width: 18px;
+		height: 23px;
 	}
 	.surname_name > li{
 		height: 50px;
@@ -333,7 +344,4 @@ footer{
 		font-size: 12px;
 		line-height: 16px;
 	}
-	
-
-
 }
