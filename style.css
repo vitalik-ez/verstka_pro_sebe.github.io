@@ -15,6 +15,11 @@ header{
 	line-height: 36px;
 	margin-right: 20px;
 }
+a {
+	text-decoration: none;
+	color: black; 
+}
+
 .menu_search{
 	width: 25px;
 	height: 27px;
@@ -187,11 +192,11 @@ body{
 	padding: 30px;
     background: white;
 }
-/*@media(max-width: 800px){
+@media(max-width: 1000px){
 	.rectangle_foto{
 		flex-direction: column;
 	}
-}*/
+}
 footer{
 	display: flex;
 	justify-content: center;
