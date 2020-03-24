@@ -262,7 +262,6 @@ footer{
 	header > div{
 		margin-top: 10px;
 	}
-	/*header*/
 }
 @media(max-width: 576px){
 	.header-center, .social_img{
